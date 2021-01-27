@@ -1,3 +1,66 @@
-portfolio-wrap {
-    background-color: aqua;
+* {
+    box-sizing: border-box;    
+}
+
+body {
+    margin: 0;
+    line-height: 1.6;
+}
+
+p{
+    font-size: 18px;
+}
+
+.main-nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(159, 129, 112);
+}
+
+.main-nav li{
+    float: left;
+}
+
+.main-nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+#home-link {
+    background-color: rgb(128, 105, 92);
+    color: white;
+}
+
+.main-nav a:hover, #home-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.portfolio-body {
+    padding: 0 15px;
+}
+
+.opening-header h1 {
+    margin: 30px 0 50px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.body-list li {
+    color: grey;
+}
+
+.contact-links a {
+    text-decoration: underline;
+    color: grey;
+}
+
+.contact-links a:hover {
+    color: black;
 }
