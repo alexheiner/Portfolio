@@ -65,3 +65,61 @@ p{
 .contact-links a:hover {
     color: black;
 }
+
+.about-me {
+    margin: 40px 0;
+}
+
+.about-body-flex {
+    margin: 35px 0;
+    display: flex;
+    flex-basis: 33.3%;
+    justify-content: space-evenly;
+
+    text-align: left;
+}
+
+.work-experience {
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 50px 0;
+    background-color: rgb(202, 202, 202);
+}
+
+.footer-flex {
+
+    display: flex;
+    display: flex;
+    flex-basis: 33.3%;
+    justify-content: space-evenly
+}
+
+.footer-flex ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-flex a {
+    color: black;
+}
+
+
+@media (max-width: 900px){
+    .about-body-flex, .footer-flex{
+        display: block;
+    }
+
+    footer {
+        position:relative;
+    }
+
+    .footer-flex {
+        text-align: center;
+    }
+}
